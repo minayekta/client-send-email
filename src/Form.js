@@ -9,9 +9,7 @@ return (
     <div className="container-fluid ">
         <div className="row">
         <div className="col-md-6">
-            
             <img src="./img-01.png" className=" mx-auto d-block img-fig"></img>
-           
         </div>
             <div className="col-md-6 pt-5">
                 <h1>Send Email</h1>
@@ -19,28 +17,24 @@ return (
                     <div className="form-group">
                         <label>
                         Subject:
-                        
                         </label>
                         <input  type="text" name="subject" className="form-control" />
                     </div>
                     <div className="form-group">
                         <label>
                         Email:
-                        
                         </label>
                         <input  type="email" name="email" className="form-control" />
                     </div>
                     <div className="form-group">
                         <label>
                         Message:
-                        
                         </label>
-            f            <textarea    rows="8"  name="message" className="form-control" />
+                       <textarea    rows="8"  name="message" className="form-control" />
                     </div>
                     <input type="submit" value="Submit" className="btn btn-primary w-100 btn-color" />
                 </form>
             </div>
-            
         </div>
     </div>
 )
