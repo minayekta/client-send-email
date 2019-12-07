@@ -10,7 +10,7 @@ import Form from './Form'
     return(
       <div>
         |<Form/>
-         </div>
+      </div>
   )
   };
  
